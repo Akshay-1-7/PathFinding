@@ -8,7 +8,7 @@ for(var i = 0; i < size; i++){
   row.id = "row"+(i+1);
   for(var j = 0; j < size; j++){
     var col = document.createElement("div");
-    col.id = "col"+((i*10)+(i+j+1)); 
+    col.id = "col"+((i*10)+(i+j)); 
     row.appendChild(col);
   }
   mazeContainer.appendChild(row);
